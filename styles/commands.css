@@ -1,0 +1,57 @@
+/*QUICK COMMANDS LIST*/
+html {
+  overflow: auto;
+}
+a {
+  cursor: pointer;
+}
+.zero-left {
+  margin-left: 0;
+  padding-left: 0;
+}
+.zero-right {
+  margin-right: 0;
+  padding-right: 0;
+}
+.zero-top {
+  margin-top: 0;
+  padding-top: 0;
+}
+.zero-bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.zero {
+  margin: 0;
+  padding: 0;
+}
+.inline {
+  display: inline-block;
+}
+.block {
+  display: block;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.fixed {
+  position: fixed;
+}
+.fill {
+  width: 100%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+li {
+  list-style: none;
+}

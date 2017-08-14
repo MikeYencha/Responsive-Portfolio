@@ -1,0 +1,120 @@
+html {
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  background-color: black;
+}
+
+/*HEADER STYLING*/
+.header * {
+  padding: 5px;
+}
+.header {
+  top: 0;
+  height: 105px;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+}
+.header-content {
+  height: 96px;
+}
+.header-links {
+    display: inline-block;
+    height: 96px;
+    right: 35px;
+}
+.header-links ul {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.header-links ul li {
+  float: left;
+  border-right: 1px solid white;
+}
+.header-links ul li:last-child {
+  border-right: none;
+}
+.header-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+.header-links ul li a.selected {
+  font-weight: 600;
+  text-decoration: underline;
+}
+.header-links ul li a:hover {
+  font-weight: 600;
+}
+.header h1 {
+  font-weight: bold;
+}
+.header h3, .header h4 {
+  font-weight: 400;
+}
+
+/*SECTION STYLING*/
+section {
+  background-color: white;
+  margin-top: 150px;
+}
+img {
+  width: 32%;
+}
+.p-container {
+  width: 50%;
+  background-color: white;
+  color: black;
+}
+.box {
+  width: 46%;
+  line-height: 55px;
+  padding: 10px 0 10px 22px;
+}
+.box a {
+  color: maroon;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.box a:visited {
+  color: maroon;
+  text-decoration: none;
+}
+.box a:hover {
+  text-decoration: underline;
+}
+
+/*BOX LINKS WITH FONTAWESOME*/
+.link-container ul li {
+  margin: 70px 30px 30px 30px;
+}
+.link-container .fa {
+  color: gray;
+}
+.link-container .fa:hover {
+  color: lightgray;
+}
+.link-container .fa-github {
+  font-size: 130px;
+}
+.link-container .fa-linkedin-square {
+  font-size: 120px;
+}
+.link-container .fa-stack-overflow {
+  font-size: 110px;
+}
+
+/*FOOTER STYLING*/
+.footer {
+  bottom: 0;
+  background-color: maroon;
+  height: 10.25%;
+  width: 100%;
+}
+.footer p {
+  text-align: center;
+  color: white;
+  margin: 25px;
+}
