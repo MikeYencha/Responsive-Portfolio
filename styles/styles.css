@@ -2,7 +2,6 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 body {
-  /*background-color: black;*/
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -12,20 +11,15 @@ body {
 
   .header-background {
     background-color: black;
-    width: 100%;
     height: 150px;
   }
   .header-content {
     color: white;
-    width: 960px;
     height: 150px;
     margin: 0 auto;
-    border-left: 1px solid lightblue;
-    border-right: 1px solid lightblue;
   }
   .header-titles {
     display: inline-block;
-    width: 640px;
   }
   .header-titles h1 {
     font-weight: 600;
@@ -81,21 +75,16 @@ body {
   /*margin-top: 150px;*/
 }
 .section-content {
-  width: 960px;
   background-color: white;
   margin: 0 auto 105px auto;
   overflow: hidden;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
 }
 img {
   width: 25%;
   margin: 25px 25px 0 0;
 }
 .p-container {
-  /*width: 50%;*/
   background-color: white;
-  /*float: left;*/
   color: black;
 }
 .box {
@@ -158,103 +147,12 @@ img {
   bottom: 0;
 }
 .footer-content {
-  width: 960px;
   margin: 0 auto;
   background-color: maroon;
   text-align: center;
   color: white;
   height: 85px;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
 }
 .footer-content p {
     margin: 30px 0 0 0;
-}
-@media only screen and (max-width:768px) {
-  .header-content {
-      width: 700px;
-  }
-  .header-titles {
-    width: 420px;
-  }
-  .header-links ul {
-    font-size: 17px;
-  }
-  img {
-    width: 20%;
-  }
-  .section-content {
-    width: 700px;
-  }
-  .box {
-    line-height: 44px;
-  }
-  .link-container ul {
-    padding: 50px 0 10px 0;
-    height: 327px;
-  }
-  .link-container ul li {
-    margin: 0 20px 35px 20px;
-  }
-
-  .footer-content {
-    width: 700px;
-  }
-}
-
-@media only screen and (max-width:640px) {
-  .header-background {
-    height: 190px;
-  }
-  .header-content {
-      width: 550px;
-      height: initial;
-  }
-  .header-titles {
-    width: 500px;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .header-links {
-    width: 0;
-    display: inline-block;
-    width: 513px;
-    padding: 0 110px;
-    float: none;
-  }
-  .header-links ul {
-    width: 100%;
-    margin: 0 auto;
-  }
-  img {
-    width: 20%;
-  }
-  .section-content {
-    width: 550px;
-  }
-  .box {
-    line-height: 44px;
-  }
-  .link-container {
-        margin: 7px 0 0 25px;
-  }
-  .link-container ul {
-    padding: 20px 0 10px 0;
-    height: 197px;
-  }
-  .link-container ul li {
-    margin: 0 20px 25px 20px;
-  }
-  .link-container .fa-github {
-    font-size: 40px;
-  }
-  .link-container .fa-linkedin-square {
-    font-size: 40px;
-  }
-  .link-container .fa-stack-overflow {
-    font-size: 40px;
-  }
-  .footer-content {
-    width: 550px;
-  }
 }
